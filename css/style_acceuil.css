@@ -1,6 +1,8 @@
 body{
+  background-repeat: no-repeat;
+  background-image: url("http://image.noelshack.com/fichiers/2017/19/1494798656-ejyrviotylgyusooksmw0tfpsy3rlcrpss3isazusyvsz8lptekt0s-mtddpskzoti-kl81lqwjc5pwyctkvageg7xve-eto0zaxhregmjrewtbmxla8xjd0.jpg");
+  background-size: cover;
   color: blue;
-  background-color: black
 }
 
 body p {
@@ -30,18 +32,6 @@ footer{
 
 footer a {
   color: white;
-}
-
-
-
-.img-wrapper {
-  width: 100%;
-  height: 300px;
-  overflow: hidden;
-}
-
-.banner {
-  width: 100%;
 }
 
 /* Couleur du background du menu */
