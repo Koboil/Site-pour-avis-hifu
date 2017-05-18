@@ -1,4 +1,5 @@
 body{
+  margin: 0;
   background-repeat: no-repeat;
   background-image: url("http://image.noelshack.com/fichiers/2017/19/1494798656-ejyrviotylgyusooksmw0tfpsy3rlcrpss3isazusyvsz8lptekt0s-mtddpskzoti-kl81lqwjc5pwyctkvageg7xve-eto0zaxhregmjrewtbmxla8xjd0.jpg");
   background-size: cover;
@@ -22,9 +23,10 @@ body h1 {
 footer{
   display: flex;
   justify-content: center;
+  position: fixed;
+  bottom: 0;
   background-color: #34475E;
   color: white;
-  position:fixed;
   bottom: 0;
   width: 100%;
   color: white;
