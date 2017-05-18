@@ -76,3 +76,27 @@ footer a {
     background-color: #4CAF50;
     color: white;
 }
+
+#sous_menu{
+list-style-type:none; /* On enlève la puce */
+margin: 0; /* On retire les marges intérieures et extérieures */
+padding:0;
+width:  12%;  /* J'ai mis une largeur pour ne pas prendre toute la largeur de l'écran */
+border : solid 1px #a3c0d5;  /* On applique des bordures à la balise ul */
+border-bottom: none; /* on retire celle du bas */
+}
+
+#sous_menu li{
+margin: 0; /* On retire les marges intérieures et extérieures */
+padding: 0;
+border-bottom: 1px solid #a3c0d5;  /* Ici, on affiche une bordure uniquement en bas */
+}
+
+#sous_menu a{
+text-decoration:none;  /* On enlève le soulignement */
+color:#5d90b5;
+display:flex;
+justify-content: center;
+background-color: #1C9A1A;
+color: blue;
+}
